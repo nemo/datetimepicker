@@ -11,7 +11,7 @@ angular.module('ui.bootstrap.datetimepicker',
     }
    }
   })
-  .directive('datetimepicker', [
+  .directive('formdatetimepicker', [
     function() {
       if (angular.version.full < '1.1.4') {
         return {
