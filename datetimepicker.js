@@ -1,4 +1,4 @@
-angular.module('ui.bootstrap.datetimepicker',
+angular.module('ui.bootstrap.formdatetimepicker',
     ["ui.bootstrap.dateparser", "ui.bootstrap.datepicker", "ui.bootstrap.timepicker"]
   )
   .directive('datepickerPopup', function (){
